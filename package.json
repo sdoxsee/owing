@@ -1,0 +1,19 @@
+{
+  "name": "owing",
+  "version": "1.0.0",
+  "description": "Processes csv with debts and summarizes what is owing",
+  "main": "index.js",
+  "author": "Stephen Doxsee",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^21.2.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "watch": "jest --watch --notify",
+    "start": "babel-node ./bin/owing.js"
+  },
+  "bin": "./bin/owing.js"
+}
